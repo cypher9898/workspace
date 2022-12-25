@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Lost&amp;Found</string>
+    <string name="logout">Logout</string>
+    <string name="your_name">Your Name</string>
+    <string-array name="userType">
+        <item>Choose User Type</item>
+        <item>User</item>
+        <item>Inspector</item>
+    </string-array>
+    <string-array name="Whathappened">
+        <item>분실 또는 습득</item>
+        <item>분실</item>
+        <item>습득</item>
+    </string-array>
+    <string-array name="MainTitleSpinner">
+        <item>유저이름 또는 제목</item>
+        <item>유저이름</item>
+        <item>제목</item>
+    </string-array>
+<!--    <string-array name="SearchCategoryUserSpinner">
+        <item>Choose Category</item>
+        <item>eMail</item>
+        <item>Name</item>
+        <item>Phone</item>
+    </string-array>-->
+    <string-array name="SearchCategoryFormSpinner">
+        <item>검색 기능</item>
+        <item>물건</item>
+        <item>날짜</item>
+        <item>설명</item>
+        <item>장소</item>
+    </string-array>
+
+
+    <string-array name="status">
+        <item>상태</item>
+        <item>활성</item>
+        <item>대기</item>
+        <item>종료</item>
+    </string-array>
+    <string-array name="reportsubject">
+        <item>신고내역</item>
+        <item>사기</item>
+        <item>광고</item>
+        <item>부정적인 단어</item>
+        <item>etc</item>
+    </string-array>
+    <string-array name="Category">
+        <item>카테고리</item>
+        <item>핸드폰</item>
+        <item>귀금속</item>
+        <item>옷</item>
+        <item>전자기기</item>
+        <item>자전거</item>
+        <item>가방</item>
+        <item>etc</item>
+    </string-array>
+</resources>

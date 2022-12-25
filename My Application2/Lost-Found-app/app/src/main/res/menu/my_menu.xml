@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24" >
+        <menu>
+
+            <item
+                android:id="@+id/refresh"
+                android:icon="@android:drawable/ic_menu_rotate"
+                android:title="Refresh"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/Search"
+                android:icon="@android:drawable/ic_search_category_default"
+                android:title="Search"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/Credits"
+                android:icon="@android:drawable/star_off"
+                android:title="Credits"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/logOut"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Log Out"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>

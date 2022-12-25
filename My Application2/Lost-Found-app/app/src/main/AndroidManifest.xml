@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication2">
+        <activity android:name=".SidePages.Warning_Mail"></activity>
+        <activity android:name=".ScrollView.FormsScrollView" />
+        <activity android:name=".MainPages.Login" />
+        <activity android:name=".MainPages.MainActivity" />
+        <activity android:name=".MainPages.Settings" />
+        <activity android:name=".SidePages.EditProfile" />
+        <activity android:name=".AddPages.AddForm" /> <!-- <activity android:name=".scrolling_page" /> -->
+        <activity android:name=".ViewPages.ViewProfile" />
+        <activity android:name=".AddPages.AddReport" />
+        <activity android:name=".ViewPages.ViewReport" />
+        <activity android:name=".SidePages.Credits" />
+        <activity android:name=".ViewPages.ViewForm" />
+        <activity android:name=".SidePages.Search" />
+        <activity android:name=".ScrollView.ReportsScrollView" />
+        <activity android:name=".ScrollView.MyPostsScrollView" />
+        <activity android:name=".MainPages.Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
