@@ -108,7 +108,7 @@ public class ViewForm extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent=new Intent(ViewForm.this, AddForm.class);
-                        intent.putExtra("CALㅁㄴㅇLED","ViewForm");
+                        intent.putExtra("CALLED","ViewForm");
                         intent.putExtra("ObjectForm",form);
                         startActivity(intent);
                     }
